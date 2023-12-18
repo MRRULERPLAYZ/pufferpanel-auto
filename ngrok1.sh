@@ -1,2 +1,2 @@
 #!/bin/sh
-./ngrok http 4421
+./ngrok http --domain=maggot-square-kangaroo.ngrok-free.app 4421
