@@ -1,6 +1,6 @@
 # A Script to auto install Pufferpanel 
 
-apt install curl sudo systemctl -y
+apt install curl sudo systemctl nano -y
 curl -s https://packagecloud.io/install/repositories/pufferpanel/pufferpanel/script.deb.sh | sudo bash
 sudo apt-get install pufferpanel
 sudo systemctl enable pufferpanel
